@@ -6,49 +6,52 @@ Este projeto é uma aplicação de terminal desenvolvida em Python que simula o 
 
 ## 📌 Funcionalidades
 
-1. **📊 Cadastro de Tarifas**
-   - Permite ao usuário configurar os valores fixos para 3 horas de estadia e o valor por hora adicional.
-   - Os valores são definidos com base no tipo do veículo:
-     - Veículo Pequeno
-     - Veículo Grande
-     - Motos
+### 📊 Cadastro de Tarifas  
+Permite configurar os valores cobrados para cada tipo de veículo (pequeno, grande ou moto). O sistema registra o valor fixo para até 3 horas e também o valor cobrado por cada hora adicional de permanência no estacionamento.
 
-2. **🛬 Registro de Entrada**
-   - O usuário informa a **placa** e o **tipo de veículo**.
-   - A hora de entrada é registrada automaticamente.
+### 🛬 Registro de Entrada  
+Nesta etapa, o usuário informa a placa e o tipo do veículo. A hora de entrada é registrada automaticamente pelo sistema usando a hora atual, garantindo o controle de tempo desde a chegada do cliente.
 
-3. **🛫 Registro de Saída**
-   - O usuário informa a **placa** e escolhe o método de pagamento (PIX ou outro).
-   - O sistema calcula o valor total:
-     - 5% de desconto se o pagamento for via **PIX**.
-     - Se o tempo de permanência for maior que 3 horas, cobra-se o valor adicional por hora.
-   - Ao final, são exibidos:
-     - Placa
-     - Tipo de veículo
-     - Hora de saída
-     - Tempo total de permanência
-     - Valor final a pagar
+### 🛫 Registro de Saída  
+Ao informar a placa novamente, o sistema calcula o tempo de permanência e o valor a ser pago. Caso o pagamento seja via PIX, o cliente recebe um desconto de 5%. O sistema exibe a placa, o valor final e a hora de saída.
 
-4. **📅 Relatório Diário**
-   - Mostra:
-     - Quantidade de veículos atendidos no dia
-     - Tempo médio de permanência
-     - Lucro total do dia
+### 📅 Relatório Diário  
+Gera um resumo das operações do dia, incluindo a quantidade de veículos que utilizaram o estacionamento, o tempo médio de permanência dos clientes e o lucro total obtido no período.
 
-5. **📈 Relatório por Tipo de Veículo**
-   - Quantidade de veículos por categoria
-   - Tipo de veículo mais frequente
-   - Média de valor gasto por tipo de veículo
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **Python 3**
-- **Biblioteca `datetime`** para controle de tempo (hora de entrada e saída)
+### 📈 Relatório por Tipo de Veículo  
+Apresenta estatísticas sobre o tipo de veículos mais registrados no dia (pequeno, grande ou moto), além da média de valor gasto por cada categoria. Informa também qual tipo foi o mais frequente entre os clientes.
 
 ---
 
 ## 🚦 Como Funciona
 
-O programa apresenta um **menu interativo** com 6 opções:
+### 1. Menu
+foto
+
+### 2. Opção 1
+foto
+
+### 3. Opção 2
+foto
+
+### 4. Opção 3
+foto
+
+### 5. Opção 4
+foto
+
+### 6. Opção 5
+foto
+
+### 7. Opção 6
+foto
+---
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.12**
+- **Biblioteca `datetime`** para controle de tempo (hora de entrada e saída)
+
+---
+
